@@ -1,6 +1,31 @@
-custom-shader = ./shaders/bettercrt.glsl
-# # # custom-shader-animation = always
+# custom-shader = ./shaders/bettercrt.glsl
+# custom-shader-animation = always
 
-font-family = "Geist Mono"
-background-opacity = 0.80 
+font-family = Geist Mono
+background-opacity = 0.95
 font-size = 18
+
+# Split keybindings
+keybind = cmd+down=new_split:down
+keybind = cmd+left=new_split:left
+keybind = cmd+right=new_split:right
+keybind = cmd+up=new_split:up
+
+# Navigate between splits
+keybind = cmd+option+down=goto_split:down
+keybind = cmd+option+left=goto_split:left
+keybind = cmd+option+right=goto_split:right
+keybind = cmd+option+up=goto_split:up
+
+# Resize splits
+keybind = cmd+ctrl+down=resize_split:down,10
+keybind = cmd+ctrl+left=resize_split:left,10
+keybind = cmd+ctrl+right=resize_split:right,10
+keybind = cmd+ctrl+up=resize_split:up,10
+
+# Split management
+keybind = cmd+w=close_surface
+keybind = cmd+e=equalize_splits
+
+# Tab management
+keybind = cmd+shift+w=close_tab
