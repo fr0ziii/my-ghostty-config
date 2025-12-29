@@ -1,0 +1,6 @@
+custom-shader = ./shaders/bettercrt.glsl
+# # # custom-shader-animation = always
+
+font-family = "Geist Mono"
+background-opacity = 0.80 
+font-size = 18
